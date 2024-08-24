@@ -1,15 +1,3 @@
-#---->
-# Free open-source :)
-# Untuk cek kerentanan SQL-INJECTION [💉] Dengan cara Sederhana
-# To check SQL-INJECTION vulnerabilities [💉] in a simple way
-#---->
-
-# «------------------------------»
-# Upgrade skill-mu! 🌟
-# Upgrade SC ini juga :)
-# https://github.com/M-Cyber7/OSK
-# «------------------------------»
-
 import requests
 
 def cek_vuln_gak(url):
@@ -21,7 +9,7 @@ def cek_vuln_gak(url):
         # Jika vuln/rentan... Maka akan diberitahu! | bukan diberi tempe :v
         if "error" in response.text.lower() or "exception" in response.text.lower():
             print(f"URL {url} rentan terhadap serangan SQL injection!")
-   	# Dan jika tidak ya... Tidak :(
+   	# Dan jika tidak...
         else:
             print(f"URL {url} tidak rentan terhadap serangan SQL injection.")
     except requests.exceptions.RequestException as e:

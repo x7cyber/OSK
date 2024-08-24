@@ -5,7 +5,7 @@
 pip install requests
 ```
 ```
-git clone https://github.com/M-Cyber7/OSK
+git clone https://github.com/x7cyber/OSK
 ```
 ```
 cd OSK
